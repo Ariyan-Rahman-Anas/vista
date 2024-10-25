@@ -1,0 +1,50 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES6",
+//     "module": "ESNext",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "resolveJsonModule": true,
+//     "jsx": "react",
+//     "moduleResolution": "node",
+//     "allowSyntheticDefaultImports": true,
+//     "baseUrl": "./",
+//     "paths": {
+//       "*": ["src/*"]
+//     }
+//   },
+//   "include": ["src/**/*.ts", "src/**/*.tsx"],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ]
+// }
+
+
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "target": "ES6",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist"],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
